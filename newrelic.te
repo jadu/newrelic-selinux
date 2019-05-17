@@ -2,14 +2,11 @@
 module newrelic 1.2;
 
 require {
-	type httpd_t;
 	type httpd_sys_script_t;
 	type sysctl_net_t;
 	type var_log_t;
 	type tmp_t;
-	type initrc_var_run_t;
 	type initrc_tmp_t;
-	type initrc_t;
 	type unconfined_t;
 	class sock_file write;
 	class unix_stream_socket connectto;
